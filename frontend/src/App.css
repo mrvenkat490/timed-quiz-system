@@ -1,0 +1,29 @@
+.options button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  transition: 0.2s;
+}
+
+.options button:hover {
+  background-color: #f0f0f0;
+}
+
+.options button.selected {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+}
